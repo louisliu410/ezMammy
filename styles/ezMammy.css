@@ -1,0 +1,20 @@
+﻿.tag {
+  font-size: 11px;
+  color: #6E724E;
+  padding: 2px 5px;
+  border: 1px solid #D7D999;
+  background: #FFFFC6;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 2px;
+  font-size: 14px;
+}
+
+.tag:hover,
+.tag.selected {
+  border: 1px solid #75784C;
+  background: #FF7;  
+  color: #333521;
+}
